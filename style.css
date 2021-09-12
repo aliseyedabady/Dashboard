@@ -26,24 +26,24 @@ body {
   height: 80vh;
   width: 80%;
   border-radius: 15px;
-  box-shadow: 0 0 5px 0px;
+  /* box-shadow: 0 0 5px 0px; */
 }
 
 .content {
   flex: 10;
 }
-.navbar {
+.custom-navbar {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
-  padding: 0 15px;
+  padding: 9px 15px;
 }
-.navbar .hamber {
+.custom-navbar .hamber {
   flex: 1;
   display: flex;
   align-items: center;
 }
-.navbar .icons {
+.custom-navbar .icons {
   display: flex;
   align-items: center;
 }
@@ -75,4 +75,13 @@ body {
 }
 .links ul li {
   padding: 10px 15px;
+  font-size: 11px;
+}
+
+.links ul li span {
+  padding: 0 3px;
+  font-size: 11px;
+}
+.main .content {
+  background-color: #f8fafb;
 }

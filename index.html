@@ -8,27 +8,30 @@
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <link rel="stylesheet" href="./style.css" />
   <body>
     <main>
       <div class="main">
-     
-
         <div class="sidebar">
           <div class="logo">
             <a href="">Lector</a>
@@ -71,7 +74,7 @@
           </div>
         </div>
         <div class="content">
-          <div class="navbar icon-color">
+          <div class="custom-navbar icon-color">
             <div class="hamber"><i class="fas fa-bars"></i></div>
 
             <div class="icons">
@@ -88,30 +91,89 @@
               <div class="col-md-8">
                 <div class="plot-bar">
                   <div class="header">
-                    <div class="title"></div>
-                    <div class="tabs"></div>
-                    <div class="colors"></div>
+                    <div class="title">Dashboard</div>
+                    <div class="tabs">
+                      <span>DAY</span>
+                      <span>WEEKLY</span>
+                      <span>MONTHY</span>
+                      <span>YEARY</span>
+                    </div>
+                    <div class="colors">
+                      <span>Online</span>
+                      <span>Store</span>
+                    </div>
                   </div>
                   <div class="main-plot">
-                    <div class="prices"></div>
-                    <div class="plot-bar-self"></div>
+                    <div class="prices">
+                      <span>$3468.96</span>
+                      <span>Lorem, ipsum.</span>
+                    </div>
+                    <div class="count">
+                      <span>82</span>
+                      <span>Lorem, ipsum.</span>
+                    </div>
+                    <button>Lorem, ipsum.</button>
+                    <div class="plot-bar-self">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      In excepturi tempore praesentium deleniti assumenda,
+                      dolores quasi totam iure, harum accusantium vitae sequi
+                      quo. Dolores beatae officiis voluptatum inventore quasi
+                      facere.
+                    </div>
                   </div>
                   <div class="bottom">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                      <div>
+                        <img src="./avatar.jpg" height="32" width="32" />
+                      </div>
+                      <div>
+                        <span> Lorem, ipsum.</span>
+                        <span>$4,567.53</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <img src="./avatar.jpg" height="32" width="32" />
+                      </div>
+                      <div>
+                        <span> Lorem, ipsum.</span>
+                        <span>$4,567.53</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <img src="./avatar.jpg" height="32" width="32" />
+                      </div>
+                      <div>
+                        <span> Lorem, ipsum.</span>
+                        <span>$4,567.53</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <img src="./avatar.jpg" height="32" width="32" />
+                      </div>
+                      <div>
+                        <span> Lorem, ipsum.</span>
+                        <span>$4,567.53</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="plot-circle">
-                  <div class="title"></div>
+                  <div class="title">
+                    <h5>Trafic</h5>
+                  </div>
                   <div class="plot-circle-self"></div>
                   <div class="bottom">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                      <span>33%</span>
+                      <span>carboc</span>
+                    </div>
+                    <div><span>33%</span> <span>carboc</span></div>
+                    <div><span>33%</span> <span>carboc</span></div>
                   </div>
                 </div>
               </div>
@@ -160,13 +222,86 @@
               </div>
               <div class="col-md-8">
                 <div class="table">
-                  <div class="title"></div>
+                  <div class="title">
+                    <h5>Order Table</h5>
+                    <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                  </div>
                   <div class="top-header">
-                    <div class="btns"></div>
-                    <div class="search"></div>
+                    <div class="btns">
+                      <button>add</button>
+                      <button>add</button>
+                      <button>add</button>
+                      <button>add</button>
+                    </div>
+                    <div class="search">
+                      <input type="text" />
+                      <button>Search</button>
+                    </div>
                   </div>
                   <div class="main-table">
-                    <div class="table"></div>
+                    <div class="table">
+                      <table class="table">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <table class="table">
+                        <thead class="thead-light">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                   <div class="bottom">
                     <div></div>
